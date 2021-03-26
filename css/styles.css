@@ -24,7 +24,7 @@ body {
 }
 
 .logo {
-    font-family: raleway, sans-serif;
+    font-family: nunito;
     text-decoration: none;
     font-style: normal;
     font-size: 26px;
@@ -35,7 +35,7 @@ body {
 
 
 .link_nav {
-    font-family: raleway, sans-serif;
+    font-family: nunito;
     text-decoration: none;
     font-style: normal;
     font-size: 26px;
@@ -92,7 +92,7 @@ ul {
 }
 
 .container_hero {
-    background-image: linear-gradient( to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../img/Header.jpg);
+    background-image: linear-gradient( to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../img/hero_img.png);
     height: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -112,7 +112,7 @@ ul {
     text-transform: uppercase;
     color: orange;
     text-decoration: none;
-    font-family: roboto;
+    font-family: nunito;
     font-style: normal;
     padding-top: 200px;
     margin-top: 0px;
@@ -120,16 +120,16 @@ ul {
 }
 
 .button_info {
-    background: orange;
+    background: #3d3d3d;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     width: 200px;
-    font-family: Roboto;
+    font-family: nunito;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 30px;
-    color: #FFFFFF;
+    color: orange;
     display: inline-block;
     text-decoration: none;
     margin-left: calc((100% - 200px) / 2);
@@ -142,6 +142,35 @@ ul {
     padding-bottom: 10px;
 }
 
+.button_info:hover {
+    background: orange;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 200px;
+    font-family: nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    color: #3d3d3d;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: calc((100% - 200px) / 2);
+    margin-right: 700px;
+    margin-bottom: 200px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button_info:active {
+    background: orange;
+    box-shadow: none;
+    color: #3d3d3d;
+}
+
 .container_info {
     padding-left: 15px;
     padding-right: 15px;
@@ -149,8 +178,8 @@ ul {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 25px;
-    height: 702px;
+    margin-top: 50px;
+    height: 560px;
 }
 
 .container {
@@ -162,10 +191,20 @@ ul {
 }
 
 .sect_text {
-    font-family: raleway, sans-serif;
+    font-family: nunito;
     text-decoration: none;
     font-style: normal;
     font-size: 44px;
+    line-height: 30px;
+    color: orange;
+    margin-top: 25px;
+}
+
+.ziki_text {
+    font-family: nunito;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 35px;
     line-height: 30px;
     color: orange;
     margin-top: 25px;
@@ -185,14 +224,48 @@ ul {
 
 }
 
+.cards_minigame {
+    margin-right: calc((100% - 1050px) / 2);
+    background: #292929;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    width: 350px;
+    margin-top: 25px;
+}
+
+.cards_ziki {
+    margin-right: calc((100% - 1050px) / 2);
+    background: #3d3d3d;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    width: 350px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
 .cards:last-child {
     margin-right: 0px;
 
 
 }
 
+.cards_ziki:last-child {
+    margin-right: 0px;
+    margin-left: 0px;
+
+
+}
+
+
+
+.images {
+    height: 260px;
+    width: 350px;
+    border-radius: 1%;
+}
+
 .info_text {
-    font-family: raleway, sans-serif;
+    font-family: nunito;
     text-decoration: none;
     font-style: normal;
     font-size: 26px;
@@ -204,13 +277,47 @@ ul {
 }
 
 .line_info {
-    font-family: raleway, sans-serif;
+    font-family: nunito;
     text-align: justify;
     font-style: normal;
-    font-size: 23px;
-    line-height: 1.19;
+    font-size: 21px;
+    line-height: 1.16;
     color: white;
     text-decoration: none;
     padding-right: 30px;
     padding-left: 30px;
+}
+
+.line_minigame {
+    font-family: nunito;
+    text-align: justify;
+    font-style: normal;
+    font-size: 21px;
+    line-height: 1.16;
+    color: white;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.minigame {
+    width: 100%;
+    background: #424242;
+    height: 625px;
+}
+
+.ziki {
+    width: 100%;
+    height: 625px;
+}
+
+.cont_minigame {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1170px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    padding-top: 50px;
 }
